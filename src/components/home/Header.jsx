@@ -7,7 +7,7 @@ import { IoMdClose } from "react-icons/io";
 
 function Home() {
 
-    const [menu, setMenu] = useState("contact")
+    const [menu, setMenu] = useState("home")
     const menuRef = useRef()
     const openMenu = () => {
         menuRef.current.style.right = '0px'
